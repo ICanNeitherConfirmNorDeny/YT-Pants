@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "YT-Pants",
+  "author":"ICanNeitherConfirmNorDeny",
+  "version": "2024.11.17",
+  "description": "Redirects YouTube Shorts to the YouTube homepage.",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "48": "pants_icon.png"
+  }
+}
